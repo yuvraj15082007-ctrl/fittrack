@@ -372,4 +372,5 @@ export default function FitTrack() {
             </div>
           : <RouteCanvas coords={coords} accent={theme.accent} />
         }
-        {trackState === "running" && <div style={{ position: "absolute", top: 14, right: 14, background: theme.danger, color: "#fff", borderRadius: 6, padding: "2px 8px", fontSize: 11, fontWei
+        {trackState === "running" && (
+          <div style={{ position: "absolute", top: 14, right: 14, background: theme.danger, color: "#fff", borderRadius: 6, padding: "2px 8px", fontSize:
